@@ -1,0 +1,27 @@
+
+Klassen für Seiteninhalte
+_______________________________________________________________________________________
+
+Für Textblöcke-<div> – enthalten <img>, <h2>, <p>, <ul>:
+
+.article
+	.icon
+.art_right
+
+Nur auf Seiten mit Sub-Navigation – relevant bei @media 800px:
+
+.article .firstmobile		<div class="article firstmobile">
+.article .nomobile		<div class="article nomobile">
+
+.desksubnavi ...
+
+_______________________________________________________________________________________
+
+Für den XML-Feed-<div> – enthält <img>, <h4>, <h5>, <div>, <p>:
+
+.section
+	.icon
+	.xml
+	.small
+
+	.statement

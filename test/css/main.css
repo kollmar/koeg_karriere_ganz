@@ -1,0 +1,526 @@
+@charset "utf-8";
+@import url("navi.css") screen;
+*,*:before,*:after{
+	box-sizing:border-box;
+	margin:0; padding:0; border:0;
+	vertical-align: baseline;
+}
+html, body {
+	color:#333;
+	background:fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.wrap {
+	max-width:1200px;
+	margin:0 auto 35px;
+	overflow:hidden;
+	position:relative;
+}
+#header{
+	height:120px;
+}
+.headerdeskfix{
+	max-width:1200px;
+	margin:0 auto;
+	height:84px;
+	position:fixed;
+	top:0; right:0; left:0;
+	z-index:1000;
+	background:#fff url(../images/ka-logo.gif) no-repeat;
+	background-position:20px 20px;
+	border-bottom:1px solid #66b257;
+}
+.headerdeskfix span{
+	width:200px;
+	height:80px;
+	float:left;
+	z-index:1000;
+}
+#content{
+	position:relative;
+	margin-top:380px;
+	z-index:0;
+}
+h1, h2, h3, p {
+	line-height:26px;
+}
+a {
+	color:#66b257;
+	text-decoration:none;
+}
+a:hover {
+	color:#000;
+}
+.koeag_color {
+	color:#66b257;
+}
+h3 {
+	margin-top:84px;
+	background: #66b257;
+	color:#fff;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:35px;
+	line-height:45px;
+	font-weight:lighter;
+	padding:5px 0;
+}
+h3 span{
+	color:#DADADA;
+	font-size:44px;
+	font-weight:bold;
+}
+p, li, a{
+	font-size:15px;
+	line-height:25px;
+}
+.motto{
+	position: absolute;	
+	left: 50%;
+	top: 125px;
+	width:50%;
+}
+.motto_arrow{
+	position: absolute;	
+	left: 0;
+	top: 0;
+}
+.motto_arrow:after{
+	content: "";
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border: 44px solid transparent;
+	border-right: 0;	
+	-moz-transform: scale(0.9999);
+	border-left-color: #66b257;
+	-moz-transform: rotate(-55deg);
+	-ms-transform: rotate(-55deg);
+	-o-transform: rotate(-55deg);
+	-webkit-transform: rotate(-55deg);
+	margin:-23px 0 0 80px;
+}
+.motto p{
+	float:left;
+	margin:16% 30% 0 19%;
+	font-size: 17px;
+	line-height: 25px;
+	padding:10px;
+	background:rgba(255,255,255,0.9);
+}
+.article {
+	width: 50%;
+	float:left;
+	padding: 0 2% 0 2%;
+	margin: 0 0 26px 0;
+	-moz-hyphens: auto;
+	-o-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	hyphenate-limit-chars: auto 4;
+	hyphenate-limit-lines: 3;
+}
+.icon {
+	width: 53px;
+	height:auto;
+	float:left;
+	margin: 26px 0 0 0;
+}
+.art_right{
+	float:right;
+}
+.article h2, .article p {
+	width:82%;
+	float:right;
+	padding: 0 10% 0 0;
+}
+.article h2 {
+	color:#66b257;
+	font-size:21px;
+	line-height:26px;
+	font-weight:lighter;
+	margin: 26px 0 0 0;
+}
+.article p {
+	margin: 17px 0 0 0;
+}
+.article .zitat{
+	color:#66b257;
+	font-size:37px;
+	line-height:62px;
+	font-weight:lighter;
+	font-style:italic;
+	margin: 60px 0 0 0;
+}
+.article .zitat span{
+	color:#666;
+	font-size:12px;
+	float:right;
+}
+.article .contentimg{
+	width:100%;
+	height:auto;
+	margin: 60px 0 60px 0;
+}
+.partnerlogo{
+	max-width:100%;
+	height:auto;
+	float:left;
+	margin: 0 26px 0 0;
+}
+.section{
+	width: 100%;
+	background: #66b257;
+	color:#fff;
+	padding: 0 0 26px 0;
+}
+.section .icon {
+	margin: 0 0 0 2%;
+}
+.section h4, .section h5, .section .xml {
+	width: 90%;
+	float:right;
+	padding: 0 5% 0 0;
+}
+.xml 
+.section h4 {
+	font-size:24px;
+}
+.section h5 {
+	font-size:16px;
+	font-weight:lighter;
+	margin:0 0 35px 0;
+}
+.section .small, .section .statement {
+	font-size:12px;
+	line-height:16px;
+}
+.section .statement{
+	float:left;
+	width:53%;
+	font-style:italic;
+	padding:0 4% 0 0;
+}
+.section .statement:nth-child(2n){
+	width:47%;
+	padding:0 0 0 0;
+}
+.section .statement img {
+	float:left;
+	padding:0 17px 35px 0;
+}
+.section .statement a {
+	color:#fff;
+}
+.design, .design2{
+	width: 100%;
+	height:30px;
+	background: #66b257 url(../images/arrows.png) no-repeat;
+	background-size: auto;
+	background-position: center -44px;
+	margin: 35px 0 26px 0;
+}
+.design2{
+	background: #fff url(../images/arrows.png) no-repeat;
+	background-position: center -8px;
+	margin: 0 0 26px 0;
+}
+.toclear{
+	clear:both;
+}
+.logo_koenigsteiner {
+	display:none;
+}
+.slogan{
+	float:right;
+	max-width: 100%;
+	margin: 30px 20px 20px 0;
+}
+.topimage{
+	height:303px;
+	width: auto;
+	position: absolute;	
+	left: 0;
+	top: 142px;
+}
+.line{
+	width: 100%;
+	height:8px;
+	margin: 26px 0 17px 0;
+}
+.social_kununu {
+	float:right;
+	padding: 0 2% 0 0;
+}
+.social_xing {
+	float:right;
+	padding: 0 10px 0 0;
+}
+.foot{
+	font-size:10px;
+	line-height:10px;
+	padding: 0 2% 0 2%;
+}
+.foot a{
+	color:#666;
+	font-size:11px;
+	text-decoration:none;
+}
+.foot span{
+	color:#66b257;
+	padding: 0 8px 0 8px;
+}
+.foot a:hover{
+	color:#666;
+	text-decoration: underline;
+}
+@media screen and (max-width: 1000px) {
+.motto p{
+	margin:23% 30% 0 19%;
+}
+}
+@media screen and (max-width: 820px) {
+h3 {
+	font-size:26px;
+	line-height:45px;
+}
+h3 span{
+	color:#DADADA;
+	font-size:35px;
+	font-weight:bold;
+}
+}
+@media screen and (max-width: 800px) {
+.topimage{
+	height:203px;
+	width: auto;
+}
+.firstmobile {
+	width: 100%;
+}
+.firstmobile h2, .firstmobile p {
+	width:90%;
+	float:right;
+	padding: 0 3% 0 0;
+}
+.headerdeskfix{
+	background:#fff;
+	border-bottom:none;
+	position:absolute;
+}
+.logo_koenigsteiner {
+	display:block;
+	max-width: 100%;
+	position:absolute;
+	top:20px;
+	left:40%;
+	z-index:0;
+}
+.motto p{
+	margin:26% 15% 0 2%;
+	font-size:12px;
+}
+.desknavi, .desksubnavi, .headerdeskfix span, .nomobile {
+	display:none;
+}
+#naviposition{
+	position:absolute;
+	top:340px;
+	left:0;
+	right:0;
+}
+#naviposition.fixed{
+	position:fixed;
+	top:0;
+	z-index:1000;
+}
+#header{
+	height:344px
+}
+#content{
+	margin-top:26px;
+}
+.mob_fix{
+	position:relative;
+	top: 0;
+	left:0;
+	right:0;
+	height:80px;
+	background:#fff;
+	box-shadow: 0 0 8px #666;
+	overflow:hidden;
+	z-index:0;
+}
+.slogan{
+	float:none;
+	padding: 0 0 0 32%;
+}
+.motto{
+	left: 60%;
+	width:38%;
+}
+.motto_arrow:after, .motto_arrow:before{
+	border: 35px solid transparent;
+	border-right: 0;
+	-moz-transform: scale(0.9999);
+	border-left-color: #66b257;
+	-moz-transform: rotate(-55deg);
+	-ms-transform: rotate(-55deg);
+	-o-transform: rotate(-55deg);
+	-webkit-transform: rotate(-55deg);
+	margin:-25px 0 0 30px;
+}
+.motto p{
+	margin:26% 10% 0 0%;
+}
+.social_kununu, .social_xing {
+	display:none;
+}
+.section h4, .section h5, .section .xml {
+	width:88.5%;
+}
+.section .statement, .section .statement:nth-child(2n){
+	float:none;
+	width:100%;
+	padding:0 0 17px 0;
+	clear:both;
+}
+}
+@media screen and (max-width: 710px) {
+.logo_koenigsteiner {
+	left:41%;
+}
+.slogan{
+	padding: 0 0 0 29%;
+}
+.icon {
+	width: 35px;
+	height:auto;
+}
+.topimage{
+	top: 142px;
+}
+.article .zitat{
+	font-size:30px;
+	line-height:44px;
+	margin: 20px 0 0 0;
+}
+.article .contentimg{
+	margin: 20px 0 30px 0;
+}
+}
+@media screen and (max-width: 620px) {
+#naviposition{
+	top:331px;
+}
+.topimage{
+	top: 131px;
+}
+.logo_koenigsteiner {
+	left:32%;
+}
+.slogan{
+	padding: 0 0 0 25%;
+}
+h3 {
+	font-size:21px;
+	line-height:35px;
+}
+h3 span{
+	color:#DADADA;
+	font-size:26px;
+	font-weight:bold;
+}
+.motto_arrow:after{
+	border: 35px solid transparent;
+	border-right: 0;
+	-moz-transform: scale(0.9999);
+	border-left-color: #66b257;
+	-moz-transform: rotate(-55deg);
+	-ms-transform: rotate(-55deg);
+	-o-transform: rotate(-55deg);
+	-webkit-transform: rotate(-55deg);
+	margin:-30px 0 0 30px;
+}
+.motto p{
+	margin:21% 3% 0 0%;
+}
+.article {
+	width: 100%;
+	float:none;
+}
+.article h2, .article p {
+	width:90%;
+	float:right;
+	padding: 0 3% 0 0;
+}
+.section .small{
+	font-size:11px;
+	line-height:15px;
+}
+}
+@media screen and (max-width: 480px) {
+.logo_koenigsteiner {
+	left:25%;
+}
+.slogan{
+	padding: 0 0 0 16%;
+}
+.motto{
+	display:none;
+}
+.icon {
+	width: 26px;
+	height:auto;
+}
+}
+@media screen and (max-width: 355px) {
+.logo_koenigsteiner {
+	left:21%;
+}
+.slogan{
+	padding: 0 0 0 10%;
+}
+.article .icon, .section .icon {
+	display:none;
+}
+.article h2, .article p {
+	width:100%;
+	float:none;
+	padding: 0 3% 0 3%;
+}
+.article .zitat{
+	font-size:26px;
+	line-height:35px;
+}
+.section h4, .section h5, .section .xml {
+	width:100%;
+	float:none;
+	padding: 0 5% 0 5%;
+}
+}
+@media screen and (max-width: 314px) {
+	.slogan, .topimage, h3, .headerdeskfix {
+		display:none;
+}
+#naviposition{
+	top: 44px;
+	display:block;
+}
+#naviposition.fixed{
+	top:44px;
+}
+#content{
+	margin-top:-190px;
+}
+.logo_koenigsteiner {
+	max-width:100%;
+	padding:0 20%;
+	left:0;
+}
+}
+@media print {
+}

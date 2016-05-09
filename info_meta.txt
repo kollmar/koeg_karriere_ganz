@@ -1,0 +1,75 @@
+Ziel: http://www.koenigsteiner-karriere.de/
+
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="HandheldFriendly" content="True" />
+
+
+index:
+	<title>KÖNIGSTEINER Karriere: Alle Jobs auf einen Blick – jetzt informieren!</title>
+<meta name="keywords" content="KÖNIGSTEINER, Karriere, Jobs, Stellenangebote, offene Stellen, Stellenmarkt, Vertrieb, Personalmarketing, Mediengestaltung, Kundenberatung, Kontakt">
+<meta name="description" content="KÖNIGSTEINER: Karriere für Vertriebler, Kundenberater, Personalmarketingspezialisten &amp; Mediengestalter – bei uns gibt’s die besten Perspektiven! Jetzt bewerben!">
+
+
+stellenanzeigen:
+	<title>KÖNIGSTEINER JOBS – Informieren Sie sich über unsere Stellenangebote!</title>
+<meta name="keywords" content="KÖNIGSTEINER, Jobs, Stellenangebote, offene Stellen, Stellenmarkt, Vertrieb, Personalmarketing, Mediengestaltung, Kundenberatung, Kontakt, Key Account Manager">
+<meta name="description" content="Jobs bei der KÖNIGSTEINER – Vertriebler, Kundenberater, Personalmarketingspezialisten und Mediengestalter haben bei uns beste Perspektiven – jetzt bewerben!">
+
+jobs_vertrieb:
+	<title>KÖNIGSTEINER Vertrieb: Jetzt informieren und Karriere machen!</title>
+<meta name="keywords" content="Vertrieb, KÖNIGSTEINER, Karriere, Vertriebler, Vertriebsmitarbeiter, Vertriebseinsteiger, Key Account, Vertriebsaußendienst, Kundenbetreuung, Kundenberatung , Personalmarketing, Mediengestaltung, offene Stellen, Kontakt, Initiativbewerbung, Sales, Sales Manager, Senior Key Account Manager">
+<meta name="description" content="Karriere im KÖNIGSTEINER-Vertrieb – wir bieten Ihnen mehr Freiraum für Ihre Fähigkeiten! Informieren Sie sich ausführlich &amp; bewerben Sie sich direkt!">
+
+jobs_kundenberatung:
+	<title>KÖNIGSTEINER Kundenberatung – jetzt bewerben &amp; Karriere machen!</title>
+<meta name="keywords" content="Kundenberatung, KÖNIGSTEINER, Karriere, Kundenberater, Kontakter, Personalmarketing, Vertriebsabteilung, Mediengestaltung, aktuelle Jobangebote, Mitarbeiterstatements, Kontakt, Initiativbewerbung, Key Account Manager, Customer Self Service">
+<meta name="description" content="Karriere mit Kundenberatung – werden Sie ein KÖNIGSTEINER! Organisationstalente vor – jetzt informieren und direkt bewerben!">
+
+jobs_mediengestalter:
+	<title>Mediengestaltung Print &amp; Online – jetzt bewerben &amp; Karriere machen!</title>
+<meta name="keywords" content="Mediengestaltung, Print, Online, Mediengestalter, gestalten, Medien, Adobe, InDesign, Dreamweaver, Fireworks, Illustrator, HMTL, Grafik, digital, Druck, Medienfachmann, KÖNIGSTEINER, Karriere, aktuelle Jobangebote, Mitarbeiterstatements, Kontakt, Initiativbewerbung">
+<meta name="description" content="Mediengestalter bei der KÖNIGSTEINER – Ihr Herz schlägt für Print &amp; Online? Dann bewerben Sie sich jetzt!">
+
+jobs_personalmarketing:
+	<title>Personalmarketing – wir schaffen Arbeitgebermarken! Jetzt bewerben!</title>
+<meta name="keywords" content="Personalmarketing, Jobs, Employer Branding, Recruiting, Social Media, Social Recruiting, KÖNIGSTEINER, Karriere, aktuelle Jobangebote, O-Töne, Kontakt, Initiativbewerbung, PM">
+<meta name="description" content="Personalmarketing KÖNIGSTEINER – wir geben Unternehmen ein Gesicht! Jetzt bewerben und Karriere machen!">
+
+jobs_azubi_studenten:
+	<title>KÖNIGSTEINER Einsteiger starten besser! Jetzt informieren &amp; bewerben!</title>
+<meta name="keywords" content="Einsteiger, Ausbildung, KÖNIGSTEINER, Praktikant, Praktikanten, Student, Studenten, Azubi, Azubis, duales Studium, Medium, Medien, Kommunikation, Kaufmann/Kauffrau für Bürokommunikation, Marketingkommunikation, Medienkauffrau, Medienkaufmann, Mediengestalter, Mediengestalterin, Bürokauffrau, Bürokaufmann, Karriere, Kontakt, Ausbildungsplätze">
+<meta name="description" content="KÖNIGSTEINER für Einsteiger – bei uns haben Praktikanten, Studenten und Azubis den idealen Karrierestart! Nehmen Sie jetzt Kontakt zu uns auf!">
+
+
+werte:
+	<title>KÖNIGSTEINER WERTE – erfahren Sie, wofür wir stehen &amp; was uns ausmacht!</title>
+<meta name="keywords" content="KÖNIGSTEINER, Werte, Statement der Geschäftsführung, Charaktere, Mitarbeiterstatements">
+<meta name="description" content="Werte der KÖNIGSTEINER – entdecken Sie, wie wir arbeiten, denken und miteinander umgehen. Wenn Ihnen gefällt was Sie sehen, bewerben Sie sich!">
+
+
+charaktere:
+	<title>KÖNIGSTEINER CHARAKTERE – erfahren Sie was wir zu sagen haben!</title>
+<meta name="keywords" content="KÖNIGSTEINER CHARAKTERE, Mitarbeiterstatements, Mitarbeiterzitate, Werte, Arbeitsbereiche">
+<meta name="description" content="KÖNIGSTEINER CHARAKTERE – wir sagen unsere Meinung! Lesen Sie jetzt unsere Mitarbeiterstatements!">
+
+
+kontakt:
+	<title>Kontakt zum KÖNIGSTEINER-Team – Karrierefragen? Wir sind für Sie da!</title>
+<meta name="keywords" content="Kontakt, KÖNIGSTEINER, Karriere, Ansprechpartner, Saskia Skiba, Antje Wagener, Bewerbungsfragen, Informationen zur Bewerbung, Arbeitswelt, Mitarbeiter">
+<meta name="description" content="Sie haben Fragen zur Bewerbung bei der KÖNIGSTEINER? Ihre Ansprechpartnerinnen Saskia Skiba &amp; Antje Wagener haben die Antworten – nehmen Sie Kontakt zu uns auf!">
+
+
+datenschutz_impressum:
+	<title>Impressum und Datenschutz KÖNIGSTEINER AGENTUR GmbH</title>
+<meta name="keywords" content="Impressum, Datenschutz, KÖNIGSTEINER AGENTUR GmbH, Karriereseite">
+<meta name="description" content="Impressum und Datenschutz auf der Karriereseite der KÖNIGSTEINER AGENTUR GmbH.">
+
+
+
+
+
+
+
+
