@@ -153,12 +153,16 @@ p, li, a{
 	line-height:62px;
 	font-weight:lighter;
 	font-style:italic;
-	margin: 60px 0 0 0;
+	margin: 0;
 }
 .article .zitat span{
 	color:#666;
 	font-size:12px;
 	float:right;
+}
+.article > .content{	/* AK */
+	display: inline-block;
+	margin-bottom: 20px;
 }
 .article .contentimg{
 	width:100%;
@@ -362,10 +366,10 @@ h3 span{
 	left: 60%;
 	width:38%;
 }
-.motto_arrow:after, .motto_arrow:before{
+.motto_arrow:after{
 	border: 35px solid transparent;
 	border-right: 0;
-	-moz-transform: scale(0.9999);
+	/*-moz-transform: scale(0.9999);*/
 	border-left-color: #66b257;
 	-moz-transform: rotate(-55deg);
 	-ms-transform: rotate(-55deg);
