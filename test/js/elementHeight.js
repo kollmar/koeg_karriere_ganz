@@ -1,8 +1,7 @@
-// var maxLenght = 0;
+var maxLenght = 0;
 var content = document.getElementsByClassName('content');
-// var azubi_content = document.getElementsByClassName('azubi_contentHeight');
+var azubi_content = document.getElementsByClassName('azubi_contentHeight');
 var testheight = content[1].offsetHeight +'px';
-console.log(testheight);
 	content[0].style.height = testheight;
 
 for (var i = 0; i < content.length; i++) {	
@@ -17,19 +16,40 @@ for (var i = 0; i < content.length; i++) {
 			pos: i,
 			height: content[i].offsetHeight
 		}
-	}	
+	}
+	else if (azubi_content.length > 0){
+		if (i === 5){
+			var rightContentHeight = {
+				pos: i,
+				height: content[i].offsetHeight
+			}
+		}
+	}
 }
-if (leftContentHeight.height > rightContentHeight.height){
+
+if (azubi_content.length > 0){	
+
+	for (var i = 0; i < azubi_content.length; i++) {
+		maxLenght += azubi_content[i].offsetHeight;
+	}
+	console.log('left: '+maxLenght+ ', '+ rightContentHeight.height);
+	setContentHeight(rightContentHeight.pos, maxLenght, true, 'left');
+}
+else if (leftContentHeight.height > rightContentHeight.height){
 	console.log('foo');
 	setContentHeight(rightContentHeight.pos, leftContentHeight, false, 'left');
 }
-else{
+else {
+
 	console.log('bar');
 	setContentHeight(leftContentHeight.pos, rightContentHeight, false, 'right');
 }
 
 function setContentHeight (pos, contentHeight, margBottom, margContent){
 	
+	if (azubi_content.length > 0 ){
+		content[pos].style.height = contentHeight + 'px';	
+	}
 	content[pos].style.height = contentHeight.height +'px';
 
 	if (margBottom === false){
