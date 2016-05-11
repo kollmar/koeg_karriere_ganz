@@ -164,6 +164,9 @@ p, li, a{
 	display: inline-block;
 	margin-bottom: 20px;
 }
+.article > .content_werte{	/* AK */
+	display: inline-block;
+}
 .article .contentimg{
 	width:100%;
 	height:auto;
@@ -207,6 +210,11 @@ p, li, a{
 	width:53%;
 	font-style:italic;
 	padding:0 4% 0 0;
+}
+.section .statement span{ /* AK */
+	display: block;
+	font-style: normal;
+	min-height: 46px;
 }
 .section .statement:nth-child(2n){
 	width:47%;
@@ -262,6 +270,9 @@ p, li, a{
 .social_xing {
 	float:right;
 	padding: 0 10px 0 0;
+}
+p.werte_ueberschrift { /* AK */
+	margin-top: 40px;
 }
 .foot{
 	font-size:10px;
