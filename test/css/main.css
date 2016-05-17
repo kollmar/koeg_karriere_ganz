@@ -154,6 +154,7 @@ p, li, a{
 	font-weight:lighter;
 	font-style:italic;
 	margin: 0;
+	padding-left: 70px;
 }
 .article .zitat span{
 	color:#666;
@@ -170,7 +171,7 @@ p, li, a{
 .article .contentimg{
 	width:100%;
 	height:auto;
-	margin: 30px 0 30px 0;
+	/*margin: 30px 0 30px 0;*/
 }
 .partnerlogo{
 	max-width:100%;
@@ -424,7 +425,7 @@ h3 span{
 	margin: 20px 0 0 0;
 }
 .article .contentimg{
-	margin: 20px 0 30px 0;
+	/*margin: 20px 0 30px 0;*/
 }
 }
 @media screen and (max-width: 620px) {

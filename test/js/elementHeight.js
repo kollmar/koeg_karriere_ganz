@@ -14,7 +14,7 @@ var azubi_content = document.getElementsByClassName('azubi_contentHeight');
 var werte_content = document.getElementsByClassName('content_werte');
 var screenWidth	  = window.innerWidth;
 
-if (screenWidth > 620){											// Prüft die Bildschirmbreite und führt erst das Script 
+if (screenWidth > 800){											// Prüft die Bildschirmbreite und führt erst das Script 
 
 	if (content.length > 0){
 

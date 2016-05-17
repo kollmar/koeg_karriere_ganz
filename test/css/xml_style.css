@@ -1,0 +1,149 @@
+	#loading-bar-spinner {
+		top: 50% !important;
+		left: 50% !important;
+	}
+	.jobangebote, h2 {
+		text-transform: uppercase;			
+	}
+	.jobangebote {
+		font-size: 1.8em;
+		-webkit-margin-before: 0;
+		-webkit-margin-after: 0;
+	}
+	.job_content {			
+		display: block;
+		/*background: linear-gradient(-15deg, #2E7D32 0%, #81C784 63%, #A5D6A7 100%);
+		background: -moz-linear-gradient(-15deg, #2E7D32 0%, #81C784 63%, #A5D6A7 100%);
+		background: -webkit-linear-gradient(-15deg, #2E7D32 0%, #81C784 63%, #A5D6A7 100%);
+		background: -ms-linear-gradient(-15deg, #2E7D32 0%, #81C784 63%, #A5D6A7 100%);
+		background: -o-linear-gradient(-15deg, #2E7D32 0%, #81C784 63%, #A5D6A7 100%);*/
+		/*padding-left: 20px; */
+		padding-right: 20px;
+		padding-top: 2.67em;
+		padding-bottom: 2.67em;
+		color: #FFF;
+	}
+	.job_content > ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	.item {
+		position: relative;			
+		border-top: 2px solid #81C784;
+		padding: 20px 0;
+		-webkit-transition: top 0.5s ease-in-out;
+		   -moz-transition: top 0.5s ease-in-out;
+		   transition: top 0.5s ease-in-out;
+	}
+	.firstEl {
+		border-top: 2px solid #81C784;			
+	}
+	.item:before {
+		position: absolute;
+		display: inline-block;
+		content: ">>>";
+		font-size: 1.3em;
+		margin-left: 5px;
+	} 
+	.stellen_content {
+		margin-left: 60px;
+	}
+	.position {
+		font-size: 1.2em;
+		margin: 0 0 5px 0;
+		font-weight: normal;
+	}
+	.position, .location_date{
+		width: 100%;
+		display: block;
+	}
+	.location, .date, .divider {
+		font-size: 1.1em;
+		font-weight: normal;
+	}
+	.divider {
+		margin: 0 8px;
+	}
+	.md-button {
+		display: block;
+		line-height: normal;
+		margin: 0;
+		min-height: 0;
+		white-space: normal;
+		text-align: left;
+		text-transform: none;
+		overflow: inherit;
+	}
+	[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+		 display: none !important;
+	}
+	.sortorder_location, .sortorder_date {
+		font-size: 1.5em;
+	}
+	.button_container {
+		display: none;
+	}
+	/*--- Animation ---*/
+	.item.ng-move {
+		-webkit-transition: 0.5s linear all; /* Chrome */
+		transition: 0.5s linear all;
+		opacity: 0;
+	}
+	.item.ng-move.ng-move-active {
+		opacity: 1;
+	}
+	.sort_content {
+		display: none;
+	}
+	/*-----------------*/
+	@media screen and (min-width: 800px){
+		.firstEl {
+			border-top: 0;
+		}
+		.divider {
+			display: none;
+		}
+		.stellen_content {
+			display: flex;
+			display: -webkit-box;
+			display: -webkit-flex;
+			-webkit-flex-direction: row;
+			justify-content: space-around;		
+			text-align: left;	
+		}
+		.position {
+			/* flexbox */ 
+			   -webkit-flex:3;
+			   -webkit-box-flex:3;
+			   -moz-flex:3;
+			   -moz-box-flex:3;
+			   -ms-flex:3;
+			   flex:3 60%;
+			-webkit-align-self: flex-start;
+			margin-right: 20px;
+		}
+		.location, .date {
+			/* flexbox */ 
+			   -webkit-flex:1;
+			   -webkit-box-flex:1;
+			   -moz-flex:1;
+			   -moz-box-flex:1;
+			   -ms-flex:1;
+			   flex:1 20%;
+			margin-right: 20px;
+			-webkit-align-items: flex-start;
+			-webkit-justify-content: flex-start;
+			justify-content: flex-start;
+			-webkit-flex-shrink: 0; 
+			text-align: left;
+		}
+		.job_content > ul {
+			/*margin-left: 60px;*/
+		}
+		.sort_content {
+			display: inline-block;
+			width: 100%; 
+			height: 50px;
+			/*margin-left: 25px;*/
+		} 
+	}
