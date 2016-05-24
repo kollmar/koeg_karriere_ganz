@@ -1,4 +1,3 @@
-
 #scrolltotop span{
 	background: transparent;
 	text-align:center;
@@ -55,6 +54,7 @@
 	right:0;
 	z-index:1000;
 	max-width:1200px;
+	width:100%;
 	margin:0 auto;
 }
 .desknavi{
@@ -221,6 +221,7 @@ h3 {
 	position: absolute; 
 	top:0; left: 200px; 
 }
+}
 @media screen and (max-width: 880px) {
 .arrow:after {
 	position: absolute; 
@@ -229,6 +230,7 @@ h3 {
 .subnav-item .arrow:after { 
 	position: absolute; 
 	top:0; left: 170px; 
+}
 }
 @media screen and (max-width: 900px) {
 .nav-item .link_txt{
@@ -241,6 +243,7 @@ h3 {
 .navigation, input, label {
 	display:block;
 }
+
 .navigation {
 	position: relative;
 	top: -80px;
