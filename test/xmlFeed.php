@@ -35,6 +35,7 @@
 					$array[$i]['date']  	= $date->format('d.m.Y');
 					$array[$i]['location'] 	= (string) $key->location;
 					$array[$i]['position'] 	= (string) $key->position;
+					$array[$i]['url']		= (string) $key->URL;
 
 					$i++;
 				}

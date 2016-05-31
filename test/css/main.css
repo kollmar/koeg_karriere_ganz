@@ -75,6 +75,12 @@ p, li, a{
 	font-size:15px;
 	line-height:25px;
 }
+.stellenLink{
+	font-size: inherit;
+	font-weight: inherit;
+	color: #FFF !important;
+	line-height: normal;
+}
 .motto{
 	position: absolute;	
 	left: 50%;

@@ -155,12 +155,14 @@
 									</div>
 								<ul>
 									<li data-ng-repeat="xmlList in details | orderBy:predicate:reverse" class="md-button item" data-ng-class="{firstEl:$first}" >
-										<div class="stellen_content">
-											<span class="position">{{ xmlList.position }}</span>
-											<span class="location">{{ xmlList.location }}</span>
-											<span class="divider"> | </span>
-											<span class="date">{{ xmlList.date }}</span>
-										</div>
+										<a class="stellenLink" href="{{xmlList.url}}" target="_blank">
+											<div class="stellen_content">
+												<span class="position">{{ xmlList.position }}</span>
+												<span class="location">{{ xmlList.location }}</span>
+												<span class="divider"> | </span>
+												<span class="date">{{ xmlList.date }}</span>
+											</div>
+										</a>
 									</li>
 								</ul>
 							</div>
