@@ -1,9 +1,9 @@
-<?php 	
+<?php
 	
 	/**
 	* 
 	*/
-	class Anzeigen 
+	class Anzeigen
 	{
 
 		

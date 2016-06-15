@@ -85,7 +85,7 @@
 	line-height:19px;
 	text-align:left;
 	padding: 20px 26px;
-	margin:-65px 0 0 0;
+	margin:-67px 0 0 0;
 	height:100px;
 	color:#fff;
 	text-decoration:none;
@@ -106,7 +106,7 @@
 .nav-item .arrow:after {
 	content: ""; 
 	position: absolute; 
-	top:35px; left: 120px; 
+	top:34px; left: 120px; 
 	width: 0; height: 0; 
 	text-align:center;
 	border-top: 12px solid #66b257;
@@ -130,12 +130,14 @@ h3 {
 }
 .active .arrow:after { 
 	border-top: 12px solid #6773b7;
+	cursor:default;
 }
 .active:hover .link_txt{
 	display:none;
 }
 .active:hover .link_bez{
 	color:#fff;
+	cursor:default;
 }
 .nav-item:hover .arrow:after {
 	border-top: 12px solid #6773b7; 
@@ -151,6 +153,7 @@ h3 {
 }
 .subnav-item {
 	height:52px;
+	white-space:nowrap;
 }
 .subnav-item .arrow {
 	position: relative; 
@@ -185,6 +188,17 @@ h3 {
 	background: #fff;
 	height:33px;
 }
+
+
+.subnav-item a .zus_txt{
+	color: #85C17B;
+}
+.subnav-item:nth-child(2n+1) a .zus_txt{
+	color:#66b257;
+}
+.subnav-item:hover a .zus_txt{
+	color:#fff;
+}
 .subnav-item:nth-child(6) a:hover{
 	background: #fff;
 	cursor:default;
@@ -201,10 +215,11 @@ h3 {
 }
 .subnav-item a:hover {
 	background: #6773b7;
+	color: #fff;
 }
-
 .desksubnavi .active a {
 	background: #6773B7; 
+	cursor:default;
 }
 .desksubnavi .active .arrow:after {
 	border-top: 12px solid #6773B7;

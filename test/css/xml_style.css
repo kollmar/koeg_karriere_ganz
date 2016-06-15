@@ -2,9 +2,9 @@
 		top: 50% !important;
 		left: 50% !important;
 	}
-	.jobangebote, h2 {
+	/*.jobangebote, h2 {
 		text-transform: uppercase;			
-	}
+	}*/
 	.jobangebote {
 		font-size: 1.8em;
 		-webkit-margin-before: 0;

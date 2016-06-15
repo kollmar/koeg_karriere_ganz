@@ -7,7 +7,7 @@
 }
 html, body {
 	color:#333;
-	background:fff;
+	background:#fff;
 	font-family:Arial, Helvetica, sans-serif;
 }
 .wrap {
@@ -140,12 +140,16 @@ p, li, a{
 	hyphenate-limit-chars: auto 4;
 	hyphenate-limit-lines: 3;
 }
+.article.title_datenschutz{
+	margin: 0;
+}
 .icon {
 	width: 53px;
 	height:auto;
 	float:left;
-	margin: 26px 0 0 0;
+	margin: 23px 0 0 0;
 }
+
 .art_right{
 	float:right;
 }
@@ -163,6 +167,9 @@ p, li, a{
 }
 .article p {
 	margin: 17px 0 0 0;
+}
+.article .noTopMargin{
+	margin-top: 0;
 }
 .article .zitat{
 	color:#66b257;
@@ -190,6 +197,16 @@ p, li, a{
 	height:auto;
 	/*margin: 30px 0 30px 0;*/
 }
+
+.content_werte.werte_info_text{
+	position: absolute;
+	margin-bottom: 26px;
+	width: 50%;
+	bottom: 0;
+}
+.content_werte.werte_info_text img, .content_werte.werte_info_text p {
+	margin-top:0;
+}
 .partnerlogo{
 	max-width:100%;
 	height:auto;
@@ -210,6 +227,9 @@ p, li, a{
 	float:right;
 	padding: 0 5% 0 0;
 }
+.section h4 {
+	font-size: 35px;
+}
 .xml 
 .section h4 {
 	font-size:24px;
@@ -226,21 +246,25 @@ p, li, a{
 .section .statement{
 	float:left;
 	width:53%;
-	font-style:italic;
 	padding:0 4% 0 0;
-}
-.section .statement span{ /* AK */
-	display: block;
-	font-style: normal;
-	min-height: 46px;
 }
 .section .statement:nth-child(2n){
 	width:47%;
 	padding:0 0 0 0;
 }
 .section .statement img {
+	width:29%;
+	height:auto;
 	float:left;
-	padding:0 17px 35px 0;
+	padding:17px 17px 35px 0;
+}
+.section .statement span {
+	float:right;
+	padding:17px 17px 35px 0;
+	width:71%;
+}
+.section .statement span strong {
+	font-size:14px;
 }
 .section .statement a {
 	color:#fff;
@@ -462,8 +486,22 @@ h3 span{
 .topimage{
 	top: 131px;
 }
+.article .noTopMargin{
+	margin-top: 26px;
+}
 .logo_koenigsteiner {
 	left:32%;
+}
+.content_werte.werte_info_text{
+	position: relative;
+	margin-bottom: 0;
+	width: 100%;
+}
+.content_werte.werte_info_text img {
+	margin-top: 23px;
+}
+.content_werte.werte_info_text p {
+	margin-top: 17px; 
 }
 .slogan{
 	padding: 0 0 0 25%;

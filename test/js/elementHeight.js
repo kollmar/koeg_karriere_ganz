@@ -11,10 +11,10 @@ var maxLenght 	  = 0;
 var i = 0;
 var content 	  = document.getElementsByClassName('content');
 var azubi_content = document.getElementsByClassName('azubi_contentHeight');
-var werte_content = document.getElementsByClassName('content_werte');
+var content_werte = document.getElementsByClassName('content_werte');
 var screenWidth	  = window.innerWidth;
 
-if (screenWidth > 800){											// Prüft die Bildschirmbreite und führt erst das Script 
+if (screenWidth > 800){											// Prüft die Bildschirmbreite und führt erst danach das Script aus
 
 	if (content.length > 0){
 
@@ -64,10 +64,13 @@ if (screenWidth > 800){											// Prüft die Bildschirmbreite und führt erst
 		}
 
 	}
-
-	if (werte_content.length > 0){
-		werte_content[2].style.height = werte_content[0].offsetHeight + 'px';
-		werte_content[2].style.marginBottom = '23px';
+	/*
+	*	Menu: Werte	
+	* 	Bild + Content-Geschäftführung bündig mit linken Content
+	*/
+	if (content_werte.length > 0){
+		content_werte[2].style.height = content_werte[0].offsetHeight + 'px';
+		content_werte[2].style.marginBottom = '23px';
 	}
 }
 
