@@ -7,9 +7,9 @@
 	{
 
 		
-		public $xmlURI 		= 'http://stellen-online.de/index.php/jobexport.html?scope=standard&consumer=feed_premium&username=standard&password=standard0815';
+		public $xmlURI 		= 'https://stellen-online.de/index.php/jobexport.html?scope=standard&consumer=feed_karrierefeed&username=karrierefeed&password=star22wars';
 		public $xmlLocal 	= 'media/js/jobexport.html.xml';
-		public $koeag		= 'KÖNIGSTEINER AGENTUR GmbH';
+		// public $koeag		= 'KÖNIGSTEINER AGENTUR GmbH';
 
 		function __construct(){
 			// echo 'Klasse Anzeige geht<br /><br />';
@@ -26,7 +26,7 @@
 			$i = 0;
 
 			foreach ($xml->job as $key) {
-				if ((string) $key->companyname1 == $this->koeag) {
+				// if ((string) $key->companyname1 == $this->koeag) { // neuer Feed eingebunden. Benötigen keine Filterauswahl mehr /-AK
 
 					$date->setTimestamp((string)$key->publicationdate_unixtimestamp);
 					// $date->format('U = Y-m-d H:i:s');
@@ -38,7 +38,7 @@
 					$array[$i]['url']		= (string) $key->URL;
 
 					$i++;
-				}
+				// }
 			}
 
 			
